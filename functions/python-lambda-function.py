@@ -6,3 +6,8 @@
 a = 'saurabh tiwari'
 upper = lambda x: x.upper()  
 print(upper(a))
+
+#2. Using with List Comprehension
+func = [lambda arg=x: arg * 10 for x in range(1, 5)]
+for i in func:
+    print(i())
