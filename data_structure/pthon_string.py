@@ -35,3 +35,14 @@ print(a)
 # 1. remove(): Removes the first occurrence of an element.
 a.remove(2)
 print(a)
+
+# 2. pop(): Removes the element at a specific index or the last element if no index is specified.
+a= [1,2,3]
+a.pop()
+print(a)
+
+# 3. del statement: Deletes an element at a specified index.
+del a[1]
+
+# 4. clear(): removes all items.
+a.clear()
