@@ -19,3 +19,5 @@ s.add("d")
 print(s)
 
 #althoug we acn perfoem the union intersection and difference operation on sets 
+
+learning the sets
