@@ -1,0 +1,3 @@
+created using write mode. 
+second line. 
+appended line. 
