@@ -64,3 +64,11 @@ data = b'\x00\x01\x02\x03\x04'
 with open("file bin ", "wb") as f:
   f.write(data)
  
+
+#using path lib 
+# pathlib provides an object-oriented way to work with files and paths. It is more modern but slightly advanced compared to open().
+
+from pathlib import Path
+Path("file.txt").write_text("Hell world \n")
+content = Path("file.txt").read_text()
+print(content)
